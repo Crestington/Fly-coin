@@ -46,7 +46,7 @@ static const unsigned int BLOCK_SWITCH_TIME = 1435708800; // 07/01/2015 @ 12:00a
 static const unsigned int FORK_TIME = 1444752000; // (GMT): Tue, 13 Oct 2015 16:00:00 GMT
 static const unsigned int FORK_TIME_2 = 1446915600; // Sat, 07 Nov 2015 17:00:00 GMT
 static const unsigned int FORK_TIME_3 = 1447278900; // Wednesday, 11 Nov 2015 21:55:00 GMT //keesdewit
-static const unsigned int FORK_TIME_4 = 1448051069; 
+static const unsigned int FORK_TIME_4 = 1448055640; 
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
