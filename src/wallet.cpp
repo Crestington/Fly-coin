@@ -2054,7 +2054,7 @@ bool CWallet::GetStakeWeight2(const CKeyStore& keystore, uint64_t& nMinWeight, u
 
 	// variables for next stake calculation
 	uint64_t nPrevAge = 0;
-	uint64_t nStakeAge = 60 * 60 * 24 * 7;
+	uint64_t nStakeAge = 5 * 60;
 
     CTxDB txdb("r");
     BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setCoins)

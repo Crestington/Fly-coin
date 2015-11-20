@@ -43,7 +43,7 @@ int64_t GetWeight2(int64_t nIntervalBeginning, int64_t nIntervalEnd)
     // Kernel hash weight starts from 0 at the min age
     // this change increases active coins participating the hash and helps
     // to secure the network when proof-of-stake difficulty is low
-	int64_t nStakeMinAgeV2 = 60 * 60 * 24 * 7;
+	int64_t nStakeMinAgeV2 = 5 * 60;
     return min(nIntervalEnd - nIntervalBeginning - nStakeMinAgeV2, (int64_t)nStakeMaxAge);
 }
 
